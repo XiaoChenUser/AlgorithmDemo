@@ -133,4 +133,12 @@ public class Test {
 
         new LinkedList<Integer>().add(null);
     }
+
+    @org.junit.Test
+    public void bitTest(){
+        //获取二进制数右侧第 1 个 1 的位置
+        int p = 6;
+        int mostRightOne = p & (~p + 1);
+        System.out.println(mostRightOne);
+    }
 }

@@ -1,4 +1,4 @@
-package com.example.graph;
+package com.example.graph.dijkstra;
 
 import com.example.graph.bean.Edge;
 import com.example.graph.bean.Node;
